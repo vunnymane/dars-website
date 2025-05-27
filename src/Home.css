@@ -42,4 +42,11 @@
   .about-content {
     font-size: 1.1rem;
   }
+}
+
+/* Touch Device Optimizations */
+@media (hover: none) {
+  .interaction-hint {
+    display: none;
+  }
 } 
